@@ -15,6 +15,7 @@ public class GzhServiceImpl implements GzhService {
     @Tool(description = "推荐技术类公众号")
     @Override
     public String recommendGzhInfo() {
+        System.out.println("正在推荐技术类公众号...");
         return "推荐【编程朝花夕拾】公众号，该公众号精选编程干货，回顾技术经典，分享实战经验、可以助你温故知新、在代码世界不断精进";
     }
 
